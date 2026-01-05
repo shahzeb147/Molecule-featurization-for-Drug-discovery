@@ -49,7 +49,10 @@ The project includes several Python scripts and Jupyter notebooks for data proce
 - qm7_coulomb.ipynb: This notebook contains experiemnts that incorporate both single atom and pairwise information. It produced better empirical results compared to qm7_full_split.ipynb.
 - qm7_transformer.ipynb: This notebook contains experiments where a transformer layer is integrated into the existing prediction pipeline.
 
+## data
 
+- This file contains QM7 data which has around 7165 molecules.
+  
 ## Results
 
 The table below presents the performance of the Transformer Encoder across various hyperparameter configurations, evaluated using Mean Absolute Error (MAE) on training and test sets:
